@@ -16,6 +16,8 @@ const toggleUserMenu = () => {
 const handleLogout = async () => {
     await logout();
 }
+
+
 </script>
 
 <template>
@@ -43,7 +45,7 @@ const handleLogout = async () => {
                         </button>
                         <!-- Dropdown Menu -->
                         <div v-if="showUserMenu"
-                            class=" absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-100 py-1 z-50">
+                            class=" absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-100 py-1 z-50" >
                             <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
                                 Profil
                             </a>
